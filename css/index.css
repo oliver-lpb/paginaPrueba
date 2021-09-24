@@ -1,0 +1,105 @@
+*{
+	font-family: 'Karla', sans-serif;
+}
+
+.imagen{
+	
+	/*border: 1px solid red;*/
+
+	display: grid;
+	justify-items: center;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+img {
+
+    width:540px; /* you can use % */
+    height: 360px;
+	transform: translate(0px);
+	transition: 0.1s ease width;
+	
+}
+
+.menu{
+
+	/*border: 1px solid blue;*/
+	transition: 0.3s ease width;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	
+	
+	
+}
+
+.caja{
+	transform: translate(0px);
+	transition: 0.3s ease width;
+	text-align: left;
+	width: 200px;
+	height: auto;
+	color: black; /*color texto*/
+	/*text-decoration: none; /*decoración texto*/
+	align-self: center;
+	margin: 5px;
+	font-weight: bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+
+}
+a {
+	display:inline-block;
+	color:black;
+	text-decoration:none;
+	padding:5px 10px;
+	line-height:normal;
+	font-size:19px;
+	font-weight:bold;
+    -webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
+
+
+.titulo{
+	/*border: 2px solid green;*/
+	user-select: none; 
+	background: rgba(236, 2, 2, 0.705);
+	border-radius: 10px;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+	position: static;
+	transform: translate(0px, -30px);
+	transition: 0.3s ease width;
+	align-self: center;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+button{
+  
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}

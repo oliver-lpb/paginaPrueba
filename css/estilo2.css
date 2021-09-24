@@ -1,0 +1,62 @@
+*{
+	font-family: 'Karla', sans-serif;
+}
+
+.imagen{
+	
+	/*border: 1px solid red;*/
+
+	display: grid;
+	justify-items: center;
+}
+
+img {
+    width:540px; /* you can use % */
+    height: auto;
+
+}
+
+.menu{
+
+	/*border: 1px solid blue;*/
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+}
+
+.caja{
+	background: rgb(248, 243, 253);
+	padding: 10px;
+	text-align: left;
+	width: 200px;
+	height: 15px;
+	color: black; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	align-self: center;
+	margin: 5px;
+	font-weight: bold;
+
+}
+
+.caja:hover{
+
+	background: rgb(234, 233, 234);
+	border-radius: 10%;
+	user-select: none;
+	box-shadow: 0 0 2px 3px white inset;
+	color: grey;
+	transform: translate(3px);
+	transition: 0.3s ease width;
+	
+}
+
+.titulo{
+	/*border: 2px solid green;*/
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+	position: static;
+	transform: translate(0px, -30px);
+	align-self: center;
+}

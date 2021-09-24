@@ -1,0 +1,79 @@
+*{
+	font-family: 'Karla', sans-serif;
+}
+:root {
+    --colorTextos: #49454567;
+}
+
+body{
+
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #ffd2d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #ffd2d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 650px;
+   
+    
+}
+.container{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	
+	justify-content: center;
+    gap: 10px;
+    
+	
+}
+
+/*seccion de cabezera*/
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	height: auto;
+    overflow:hidden; /* Eliminamos errores de float */
+	background:#fff;
+	margin-bottom:5px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+
+.wrapper {
+    float: right;
+	width:90%; /* Establecemos que el ancho sera del 90% */
+    height: auto ;
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin-right:10px; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+header .espacio {
+	color: black;
+	font-size:50px;
+	line-height:25px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:50px;
+}
+
+header nav a {
+    
+	display:inline-block;
+	color:black;
+	text-decoration:none;
+	padding:5px 10px;
+	line-height:normal;
+	font-size:19px;
+	font-weight:bold;
+    -webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
